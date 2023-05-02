@@ -7,7 +7,7 @@
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav">
           <li class="nav-item">
-            <a class="nav-link {{ ($title === "Grooms Home") ? 'active' : '' }}" href="/">Home</a>
+            <a class="nav-link {{ ($title === "Grooms Home") ? 'active' : '' }}" href="/">Beranda</a>
           </li>
           <li class="nav-item">
             <a class="nav-link {{ ($title === "Grooms Forum") ? 'active' : '' }}" href="/forum">Forum</a>
@@ -27,7 +27,7 @@
                   Selamat datang, {{ auth()->user()->name }}
                 </a>
                 <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="/dashboard">Dashboard</a></li>
+                  <li><a class="dropdown-item" href="/dashboard">Beranda</a></li>
                   <li><hr class="dropdown-divider"></li>
                   <li>
                     <form action="/logout" method="post">

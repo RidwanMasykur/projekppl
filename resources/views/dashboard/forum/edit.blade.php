@@ -29,7 +29,7 @@
             <input id="body" type="hidden" name="body" value="{{ $forum->body }}">
             <trix-editor input="body"></trix-editor>
         </div>
-        <button type="submit" class="btn btn-dark">Upload</button>
+        <button type="submit" class="btn btn-dark" onclick="return confirm('Apakah Anda yakin mengubah postingan?')">Simpan</button>
     </form>
 </div>
 

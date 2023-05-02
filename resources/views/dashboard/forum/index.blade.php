@@ -10,10 +10,10 @@
 <table class="table table-striped">
   <thead>
     <tr>
-      <th scope="col">No</th>
-      <th scope="col" class="w-25">Image</th>
-      <th scope="col">Title</th>
-      <th scope="col">Action</th>
+      <th scope="col">Nomor</th>
+      <th scope="col" class="w-25">Gambar</th>
+      <th scope="col">Judul</th>
+      <th scope="col"></th>
     </tr>
   </thead>
   <tbody>
@@ -29,7 +29,7 @@
             <form action="/dashboard/forum/{{ $forum->id }}" method="post">
               @csrf
               @method('delete')
-              <button type="submit" class="btn btn-outline-danger">Hapus Postingan</button>
+              <button type="submit" class="btn btn-danger" onclick="return confirm('Apakah Anda yakin menghapus postingan?')">Hapus Postingan</button>
             </form>
           </td>
         </tr>
