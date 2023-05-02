@@ -25,7 +25,7 @@
           </td>
           <td>{{ $forum->title }}</td>
           <td>
-            <a href="/dashboard/forum/{{ $forum->id }}/edit" class="btn btn-outline-dark mb-5">Ubah Postingan</a>
+            <a href="/dashboard/forum/{{ $forum->id }}/edit" class="btn btn-outline-dark mb-5" onclick="return confirm('Apakah Anda yakin mengubah postingan?')">Ubah Postingan</a>
             <form action="/dashboard/forum/{{ $forum->id }}" method="post">
               @csrf
               @method('delete')

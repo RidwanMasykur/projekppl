@@ -28,7 +28,7 @@
             @enderror
         </div>
         <div class="mb-3">
-            <label for="body" class="form-label @error('image') is-invalid @enderror">Tulis Pesan Anda!</label>
+            <label for="body" class="form-label @error('body') is-invalid @enderror">Tulis Pesan Anda!</label>
             <input id="body" type="hidden" name="body">
             <trix-editor input="body"></trix-editor>
             @error('body')
