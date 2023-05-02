@@ -31,7 +31,9 @@
                 <p>
                   {{$komentar->komentar}}
                 </p>
-
+                <p>
+                  <a href="#" class="text-danger" >Hapus Komentar</a>
+                </p>
               </div>
             </div>
           </div>

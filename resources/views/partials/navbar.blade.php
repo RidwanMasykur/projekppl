@@ -16,7 +16,7 @@
             <a class="nav-link {{ ($title === "Grooms Jadwal") ? 'active' : '' }}" href="/jadwal">Jadwal</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link {{ ($title === "Grooms Belanja") ? 'active' : '' }}" href="/belanja">Belanja</a>
+            <a class="nav-link {{ ($title === "Grooms Belanja") ? 'active' : '' }}" href="/belanja" aria-disabled="false">Belanja</a>
           </li>
         </ul>
 

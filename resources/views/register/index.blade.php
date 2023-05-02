@@ -12,7 +12,7 @@
                     <label for="name">Nama</label>
                     @error('name')
                       <div class="invalid-feedback">
-                        {{ 'Isi nama Anda terlebih dahulu!' }}
+                        {{ $message }}
                       </div>
                     @enderror
                 </div>
@@ -21,7 +21,7 @@
                 <label for="email">Email</label>
                     @error('email')
                       <div class="invalid-feedback">
-                        {{ 'Isi email Anda dengan email yang benar!' }}
+                        {{ $message }}
                       </div>
                     @enderror
               </div>
@@ -30,7 +30,7 @@
                 <label for="password">Password</label>
                     @error('password')
                       <div class="invalid-feedback">
-                        {{ 'Masukkan password dengan lebih dari 5 karakter!' }}
+                        {{ $message }}
                       </div>
                     @enderror
               </div>
