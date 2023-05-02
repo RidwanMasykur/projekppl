@@ -62,7 +62,7 @@
                   <textarea class="form-control" id="textAreaExample" rows="4" name="komentar"></textarea>
                 </div>
                 <div class="d-flex justify-content-end mt-3">
-                  <button type="submit" class="btn btn-success">
+                  <button type="submit" class="btn btn-dark">
                     Kirim Komentar
                   </button>
                 </div>
